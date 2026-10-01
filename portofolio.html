@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Farrel Kenjiro – Junior Software Engineer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Source+Serif+4:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#f3f6ef; --ink:#14221b; --muted:#53655a; --line:#cfd9c9; --accent:#1f6b4a; --chip:#e3ebdc; --panel:#14221b; --panel-ink:#e9f2e4;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a14;--ink:#e7efe3;--muted:#9bb0a2;--line:#27382d;--accent:#6fd3a2;--chip:#1a2a21;--panel:#e7efe3;--panel-ink:#14221b}}
+:root[data-theme="dark"]{--bg:#0f1a14;--ink:#e7efe3;--muted:#9bb0a2;--line:#27382d;--accent:#6fd3a2;--chip:#1a2a21;--panel:#e7efe3;--panel-ink:#14221b}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.65}
+main{max-width:720px;margin:0 auto;padding:0 22px 64px}
+h1,h2,h3{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;line-height:1.05;margin:0}
+.hero{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(3.4rem,17vw,6.6rem);font-weight:800;letter-spacing:-.04em}
+.role{margin:18px 0 0;font-size:1.25rem}
+.role b{font-weight:600;color:var(--accent)}
+.lead{color:var(--muted);max-width:34em;margin:14px 0 26px}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{font-family:"Bricolage Grotesque",Arial,sans-serif;font-weight:500;font-size:1rem;text-decoration:none;color:var(--ink);border:1.5px solid var(--ink);padding:10px 18px;border-radius:999px}
+.btn.main{background:var(--ink);color:var(--bg)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+section{padding:40px 0 0}
+h2{font-size:1.9rem;font-weight:800;letter-spacing:-.02em;margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.chips li{background:var(--chip);padding:6px 14px;border-radius:999px;font-family:"Bricolage Grotesque",Arial,sans-serif;font-weight:500;font-size:.98rem}
+.proj{border-top:1px solid var(--line);padding:20px 0}
+.proj:last-child{border-bottom:1px solid var(--line)}
+.proj h3{font-size:1.35rem;font-weight:800}
+.proj p{margin:6px 0 8px;color:var(--muted)}
+.proj small{font-family:"Bricolage Grotesque",Arial,sans-serif;color:var(--accent);font-weight:500}
+.cta{margin-top:48px;background:var(--panel);color:var(--panel-ink);padding:28px;border-radius:20px}
+.cta h2{margin-bottom:8px}
+.cta a{color:inherit}
+footer{margin-top:28px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <h1>Farrel Kenjiro</h1>
+    <p class="role"><b>Junior Software Engineer</b> di freeCodeCamp</p>
+    <p class="lead">Saya membangun situs dan aplikasi web yang sederhana, cepat, dan mudah dipakai, sambil terus belajar lewat proyek nyata.</p>
+    <div class="links">
+      <a class="btn main" href="https://www.linkedin.com/in/farrel-kenjiro-823891439" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/" rel="noopener">GitHub</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Keahlian</h2>
+    <ul class="chips">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>Git &amp; GitHub</li><li>Responsive design</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sertifikasi</h2>
+    <p>Belajar pengembangan web lewat kurikulum freeCodeCamp.</p>
+  </section>
+
+  <div class="cta">
+    <h2>Mari terhubung</h2>
+    <p>Terbuka untuk peluang kerja, magang, dan kolaborasi. Hubungi saya lewat <a href="https://www.linkedin.com/in/farrel-kenjiro-823891439">LinkedIn</a>.</p>
+  </div>
+  <footer>© 2026 Farrel Kenjiro</footer>
+</main>
+</body>
+</html>
